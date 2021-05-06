@@ -9,12 +9,12 @@ buzz = (
     "devops",
 )
 adjectives = ("complete", "modern", "self-service", "integrated", "end-to-end")
-adverbs = ("remarkably", "enormously", "substantially", "significantly", "seriously")
+adverbs = ("remarkably", "enormously", "substantially", "significantly", "seriously")  # noqa
 verbs = ("accelerates", "improves", "enhances", "revamps", "boosts")
 
 
-def sample(l, n=1):
-    result = random.sample(l, n)
+def sample(m, n=1):
+    result = random.sample(m, n)
     if n == 1:
         return result[0]
     return result
